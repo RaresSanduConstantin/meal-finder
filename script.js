@@ -120,7 +120,7 @@ mealsEl.addEventListener("click", e => {
   });
 
   if (mealInfo) {
-    const mealID = mealInfo.getAttribute("data-mealId");
+    const mealID = mealInfo.getAttribute("data-mealid");
     getMealById(mealID);
   }
 });
